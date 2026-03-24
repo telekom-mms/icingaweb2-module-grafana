@@ -62,7 +62,8 @@ class Grapher extends GrapherHook
     protected $panelId;
     protected $orgId;
     protected $customVars;
-    
+    protected $pngUrl;
+ 
     protected function init()
     {
         $this->permission = Auth::getInstance();
